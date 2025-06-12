@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val config = LDConfig.Builder()
-            .mobileKey("YOUR_MOBILE_KEY")
+            .mobileKey("mob-3b66fef4-5401-4502-901f-1a85dbde9132")
             .build()
-        val user = LDUser.Builder("example-user-key")
+        val user = LDUser.Builder("app-test")
             .build()
         LDClient.init(application, config, user, 5)
     }
