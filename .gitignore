@@ -1,0 +1,14 @@
+# Gradle files
+.gradle/
+/local.properties
+
+# Build output
+*/build/
+
+# Android Studio
+.idea/
+
+# Misc
+.DS_Store
+node_modules/
+gradle/wrapper/gradle-wrapper.jar
